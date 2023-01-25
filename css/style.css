@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* form {
+  background-image: url(../gradientThemes/milad-fakurian-nY14Fs8pxT8-unsplash\\(
+      1\
+    ).jpg);
+} */
+* {
+  font-family: "Raleway", sans-serif;
+}
