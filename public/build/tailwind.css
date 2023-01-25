@@ -480,9 +480,6 @@ video {
 .left-80 {
   left: 20rem;
 }
-.mr-4 {
-  margin-right: 1rem;
-}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -588,6 +585,10 @@ video {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 .px-8 {
   padding-left: 2rem;
