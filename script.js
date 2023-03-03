@@ -1,10 +1,22 @@
+// const bgImage = document.getElementById("bgImage");
+
+// const windowWidth = window.innerWidth;
+// if (windowWidth === 720) {
+//   bgImage.src = "./images/35452-1-robot-hd.png";
+// }
+// window.addEventListener("resize", function () {
+//   const windowWidth = window.innerWidth;
+//   const bgImage = document.getElementById("bgImage");
+//   console.log(windowWidth);
+//   if (windowWidth === 720) {
+//     console.log("hello world");
+//     return (bgImage.src = "./images/35452-1-robot-hd.png");
+//   }
+// });
+
 setTimeout(() => {
   document.querySelector("form").classList.add("opacity-100");
 }, 500);
-// setTimeout(() => {
-//   document.querySelector("img").classList.remove("-translate-x-full");
-//   document.querySelector("img").classList.add("opacity-100");
-// }, 500);
 
 const image = document.querySelector("img");
 image.animate(
@@ -17,27 +29,3 @@ image.animate(
     easing: "ease-in-out",
   }
 );
-// const form = document.querySelector("form");
-// const hoverText = document.createElement("span");
-// const div = document.getElementById("hello");
-// hoverText.innerHTML = "Hello World";
-// hoverText.classList.add(
-//   "text-center",
-//   "text-white",
-//   "absolute",
-//   "top-10",
-
-//   "left-80",
-//   "px-4",
-//   "py-2",
-//   "hidden",
-//   "bg-purple-500",
-//   "rounded-lg"
-// );
-// div.appendChild(hoverText);
-// form.addEventListener("mouseenter", () => {
-//   hoverText.style.display = "block";
-// });
-// form.addEventListener("mouseleave", () => {
-//   hoverText.style.display = "none";
-// });

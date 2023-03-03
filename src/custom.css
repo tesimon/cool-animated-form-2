@@ -1,0 +1,25 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+.custom-color {
+  background: linear-gradient(
+    -240deg,
+    #09020eee,
+    #4f0566ba,
+    #0b7466,
+    #040348f9
+  );
+  filter: drop-shadow(5px 5px 10px rgb(36, 37, 104));
+}
+#img2 {
+  display: none;
+}
+
+@media screen and (max-width: 540px) {
+  #img1 {
+    display: none;
+  }
+  #img2 {
+    display: flex;
+  }
+}
